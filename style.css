@@ -78,3 +78,31 @@ img{
 img :hover{
     transform: scale(1.05);
 }
+table{
+    margin:20px auto;
+    border-collapse: collapse;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    font: 16px;
+    background: #fff8dc;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+}
+h2{
+    text-align: center;
+}
+th, td{
+    padding: 12px 20px;
+    border-bottom:1px solid#ddd;
+}
+th{
+    background-color: #facc15;
+    color: #92400e;
+    height:bold;
+}
+tr:hover{
+    background-color: #fde;
+}
+footer:hover{
+    background-color:#fcd34d;
+}
